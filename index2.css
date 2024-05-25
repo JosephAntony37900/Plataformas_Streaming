@@ -1,0 +1,73 @@
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/login (Community) (1).png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0);
+}
+
+.register-form {
+    background-color: #33333322;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.profile-icon {
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.profile-icon .bi-person-circle{
+    font-size: 100px; /* Ajusta el tamaño del icono */
+    color: #3a4ddeba; /* Color del icono */
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3a4ede;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e3bd3;
+}

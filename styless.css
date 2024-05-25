@@ -1,0 +1,70 @@
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/login (Community) (1).png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+
+.input-group input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 110px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d9534f;
+}
